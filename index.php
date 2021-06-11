@@ -22,16 +22,16 @@ function wpfilegator()
 }
 
 function wpfilegator_content()
-{ $url = get_option( 'home' ); ?>
+{ $filegator = get_option( 'home' ) . '/wp-content/plugins/wpfilegator/filegator/index.php'; ?>
     <div class="wrap">
         <div id="dashboard_site_health" class="postbox">
             <div class="postbox-header">
                 <h2 class="hndle ui-sortable-handle" style="padding-left: 30px">WPFilegator - WebFTP</h2>
             </div>
             <div class="inside">
-                <iframe src="<?php echo $url; ?>/wp-content/plugins/WPFilegator/filegator/index.php"
-                        style="width:100%;height:700px;border:none;overflow:hidden;z-index:999999;">
-                    Your browser doesn't support iframes
+                <iframe src="<?php echo $filegator; ?>"
+                  style="width:100%;height:700px;border:none;overflow:hidden;z-index:999999;">
+                  Your browser doesn't support iframes
                 </iframe>
             </div>
         </div>
