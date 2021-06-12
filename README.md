@@ -5,8 +5,8 @@ Add smart and secure WebFTP to WordPress
 - `admin/admin123`
 
 ## Filegator Project
-Site [https://filegator.io](https://filegator.io)
-Git x[https://github.com/filegator/filegator](https://github.com/filegator/filegator)
+- Site [https://filegator.io](https://filegator.io)
+- Git [https://github.com/filegator/filegator](https://github.com/filegator/filegator)
 
 ## Demo
 [https://demo.filegator.io](https://demo.filegator.io)
