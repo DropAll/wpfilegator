@@ -22,7 +22,7 @@ function wpfilegator()
 }
 
 function wpfilegator_content()
-{ $filegator = get_option( 'home' ) . '/wp-content/plugins/wpfilegator/filegator/index.php'; ?>
+{ $filegator = plugin_dir_url( __FILE__ ) . 'filegator/index.php'; ?>
     <div class="wrap">
         <div id="dashboard_site_health" class="postbox">
             <div class="postbox-header">
