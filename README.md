@@ -1,6 +1,7 @@
 ## WPFilegator
-Add smart and secure WebFTP to WordPress.
-Account default.
+Add smart and secure WebFTP to WordPress
+
+#### Account default
 - `admin/admin123`
 
 ## Filegator Project
@@ -12,10 +13,10 @@ Git x[https://github.com/filegator/filegator](https://github.com/filegator/fileg
 
 This is read-only demo with guest account enabled.
 - you can log in as `john/john` to see John's private files
-- or `jane/jane` as readonly + download user.
+- or `jane/jane` as readonly + download user
 
 ## Documentation
 [Check out the documentation](https://docs.filegator.io/)
 
 ## Minimum Requirements
-- PHP 7.2+ (with php-zip extension).
+- PHP 7.2+ (with php-zip extension)
