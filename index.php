@@ -22,7 +22,8 @@ function wpfilegator()
 }
 
 function wpfilegator_content()
-{ $filegator = plugin_dir_url( __FILE__ ) . 'filegator/index.php'; ?>
+{
+    $filegator = plugin_dir_url(__FILE__) . 'filegator/index.php'; ?>
     <div class="wrap">
         <div id="dashboard_site_health" class="postbox">
             <div class="postbox-header">
@@ -30,8 +31,8 @@ function wpfilegator_content()
             </div>
             <div class="inside">
                 <iframe src="<?php echo $filegator; ?>"
-                  style="width:100%;height:700px;border:none;overflow:hidden;z-index:999999;">
-                  Your browser doesn't support iframes
+                        style="width:100%;height:700px;border:none;overflow:hidden;z-index:999999;">
+                    Your browser doesn't support iframes
                 </iframe>
             </div>
         </div>
