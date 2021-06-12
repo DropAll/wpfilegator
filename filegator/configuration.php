@@ -85,7 +85,7 @@ return [
                 'config' => [],
                 'adapter' => function () {
                     return new \League\Flysystem\Adapter\Local(
-                        '../../../../' //__DIR__.'/repository'
+                        '../../../../../'
                     );
                 },
             ],
